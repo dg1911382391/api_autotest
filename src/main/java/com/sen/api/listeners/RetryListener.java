@@ -8,6 +8,7 @@ import org.testng.IRetryAnalyzer;
 import org.testng.annotations.ITestAnnotation;
 
 public class RetryListener implements IAnnotationTransformer {
+	@Override
 	@SuppressWarnings("rawtypes")
 	public void transform(ITestAnnotation annotation, Class testClass,
 			Constructor testConstructor, Method testMethod) {

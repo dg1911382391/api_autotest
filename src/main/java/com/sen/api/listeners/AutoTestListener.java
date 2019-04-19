@@ -19,11 +19,13 @@ public class AutoTestListener extends TestListenerAdapter {
 		super.onTestSuccess(tr);
 	}
 
+	@Override
 	public void onTestFailure(ITestResult tr) {
 		saveResult(tr);
 		super.onTestFailure(tr);
 	}
 
+	@Override
 	public void onTestSkipped(ITestResult tr) {
 		saveResult(tr);
 		super.onTestSkipped(tr);

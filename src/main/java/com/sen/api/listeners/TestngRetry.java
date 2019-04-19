@@ -6,11 +6,11 @@ import org.testng.Reporter;
 
 import com.sen.api.excepions.ErrorRespStatusException;
 
-
 public class TestngRetry implements IRetryAnalyzer {
 	private static int retryCount = 1;
 	private static int maxRetryCount = 2;
 
+	@Override
 	public boolean retry(ITestResult result) {
 		// TODO Auto-generated method stub
 		if (result.getThrowable() instanceof ErrorRespStatusException && retryCount % maxRetryCount != 0) {
