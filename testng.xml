@@ -11,6 +11,21 @@
 			</class>	
 		</classes>
 	</test>
+
+	<test name="login">
+		<classes>
+			<class name="com.sen.api.testng.suite.SuiteConfig"/>
+			<class name="com.sen.api.testng.suite.LoginTest"/>
+		</classes>
+	</test>
+
+	<test name="pay">
+		<classes>
+			<class name="com.sen.api.testng.suite.SuiteConfig"/>
+			<class name="com.sen.api.testng.suite.PayTest"/>
+		</classes>
+	</test>
+
 	<listeners>	
 		<listener class-name="com.sen.api.listeners.AutoTestListener"></listener>
 		<listener class-name="com.sen.api.listeners.RetryListener"></listener>

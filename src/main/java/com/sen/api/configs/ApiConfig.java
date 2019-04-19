@@ -40,7 +40,6 @@ public class ApiConfig {
 	}
 	private String rootUrl;
 	
-	
 	private Map<String,String> params = new HashMap<String, String>();
 	
 	private Map<String,String> headers = new HashMap<String, String>();
@@ -48,7 +47,6 @@ public class ApiConfig {
 	public String getRootUrl() {
 		return rootUrl;
 	}
-
 
 	public Map<String, String> getParams() {
 		return params;
