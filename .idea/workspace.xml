@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="264">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="e#163#164#0" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
@@ -64,6 +64,30 @@
                 <element signature="e#277#278#0" expanded="true" />
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,15 +128,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
               <caret line="213" column="81" selection-start-line="213" selection-start-column="81" selection-end-line="213" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -170,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/BasicAnnotation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/SuiteConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnMethod.java" />
       </list>
     </option>
   </component>
@@ -295,7 +311,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555664426006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555666145881" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -322,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.IgnoreTest">
+  <component name="RunManager" selected="TestNG.GroupsOnMethod">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -342,16 +358,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAnnotation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sen.api.testng.*" />
+          <option name="PATTERN" value="com.sen.api.testng.groups.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sen.api.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.BasicAnnotation" />
+      <option name="PACKAGE_NAME" value="com.sen.api.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.groups.GroupsOnMethod" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -446,11 +462,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupsOnMethod" />
         <item itemvalue="TestNG.IgnoreTest" />
         <item itemvalue="TestNG.IgnoreTest.ignore3" />
         <item itemvalue="TestNG.IgnoreTest (1)" />
         <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/testng.xml" />
-        <item itemvalue="TestNG.BasicAnnotation (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +481,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
-      <workItem from="1555636969164" duration="18008000" />
+      <workItem from="1555636969164" duration="19744000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -478,21 +494,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicAnnotation - 2019.04.19 at 14h 07m 04s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation - 2019.04.19 at 14h 27m 00s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation_(2) - 2019.04.19 at 14h 54m 26s.xml">
-      <configuration name="BasicAnnotation (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_testng_xml - 2019.04.19 at 16h 04m 21s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_testng_xml - 2019.04.19 at 16h 08m 29s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_testng_xml - 2019.04.19 at 16h 23m 17s.xml">
       <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -508,9 +509,24 @@
     <history-entry file="IgnoreTest_(1) - 2019.04.19 at 16h 59m 10s.xml">
       <configuration name="IgnoreTest (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="IgnoreTest_ignore3 - 2019.04.19 at 16h 59m 54s.xml">
+      <configuration name="IgnoreTest.ignore3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IgnoreTest - 2019.04.19 at 17h 00m 20s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IgnoreTest - 2019.04.19 at 17h 00m 27s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="IgnoreTest - 2019.04.19 at 17h 25m 02s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupsOnMethod - 2019.04.19 at 17h 25m 16s.xml">
+      <configuration name="GroupsOnMethod" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22638000" />
+    <option name="totallyTimeSpent" value="24374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +554,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996395" visible="true" weight="0.5824964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.5824964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -913,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="264">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="e#163#164#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
@@ -922,6 +938,28 @@
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
