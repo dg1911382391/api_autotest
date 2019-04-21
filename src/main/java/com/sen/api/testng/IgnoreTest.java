@@ -3,6 +3,7 @@ package com.sen.api.testng;
 import org.testng.annotations.Test;
 
 /**
+ * 忽略测试
  * Created by dg on 2019-04-19.
  */
 public class IgnoreTest {

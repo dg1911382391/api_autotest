@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 /**
+ * 组测试：方法分组
  * Created by dg on 2019-04-19.
  */
 public class GroupsOnMethod {
