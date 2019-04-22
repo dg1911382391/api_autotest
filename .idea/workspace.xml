@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/DependTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/ParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/parameter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,45 +16,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnClass1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/DependTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/groupsOnClass.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="8" selection-start-line="12" selection-start-column="16" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/ExceptedException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="31" column="5" selection-start-line="28" selection-start-column="42" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="418">
+              <caret line="19" column="5" selection-start-line="17" selection-start-column="24" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/DependTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/ParameterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="201">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/parameter.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -64,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -102,6 +96,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/groupsOnClass.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/ExceptedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/DependTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/parameter.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/parameter.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/ParameterTest.java" />
       </list>
     </option>
   </component>
@@ -215,7 +212,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555902431960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555921563777" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -248,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DependTest.test2">
+  <component name="RunManager" selected="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/parameter.xml">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -287,16 +284,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptedException" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sen.api.testng.*" />
+          <option name="PATTERN" value="com.sen.api.testng.parameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sen.api.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.ExceptedException" />
+      <option name="PACKAGE_NAME" value="com.sen.api.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.parameter.ParameterTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -305,17 +302,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptedException.runTimeExceptionSucceed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTest.paramTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sen.api.testng.*" />
+          <option name="PATTERN" value="com.sen.api.testng.parameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sen.api.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.ExceptedException" />
-      <option name="METHOD_NAME" value="runTimeExceptionSucceed" />
+      <option name="PACKAGE_NAME" value="com.sen.api.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.parameter.ParameterTest" />
+      <option name="METHOD_NAME" value="paramTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -324,17 +321,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupsOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTest.parameterTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_autotest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sen.api.testng.groups.*" />
+          <option name="PATTERN" value="com.sen.api.testng.parameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sen.api.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.groups.GroupsOnMethod" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.sen.api.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.parameter.ParameterTest" />
+      <option name="METHOD_NAME" value="parameterTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -342,9 +340,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/groupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_autotest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/groupsOnClass.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/parameter.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -373,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/parameter.xml" />
+        <item itemvalue="TestNG.ParameterTest.paramTest1" />
+        <item itemvalue="TestNG.ParameterTest.parameterTest1" />
+        <item itemvalue="TestNG.ParameterTest" />
         <item itemvalue="TestNG.DependTest.test2" />
-        <item itemvalue="TestNG.ExceptedException.runTimeExceptionSucceed" />
-        <item itemvalue="TestNG.ExceptedException" />
-        <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/groupsOnClass.xml" />
-        <item itemvalue="TestNG.GroupsOnMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +390,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
-      <workItem from="1555636969164" duration="31413000" />
+      <workItem from="1555636969164" duration="39279000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -405,39 +403,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExceptedException - 2019.04.21 at 23h 41m 26s.xml">
-      <configuration name="ExceptedException" configurationId="TestNG" />
+    <history-entry file="ParameterTest - 2019.04.22 at 15h 52m 49s.xml">
+      <configuration name="ParameterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException_runTimeExceptionSucceed - 2019.04.21 at 23h 43m 13s.xml">
-      <configuration name="ExceptedException.runTimeExceptionSucceed" configurationId="TestNG" />
+    <history-entry file="ParameterTest_parameterTest1 - 2019.04.22 at 15h 58m 38s.xml">
+      <configuration name="ParameterTest.parameterTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException - 2019.04.21 at 23h 44m 07s.xml">
-      <configuration name="ExceptedException" configurationId="TestNG" />
+    <history-entry file="ParameterTest_parameterTest1 - 2019.04.22 at 15h 58m 43s.xml">
+      <configuration name="ParameterTest.parameterTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException - 2019.04.21 at 23h 44m 32s.xml">
-      <configuration name="ExceptedException" configurationId="TestNG" />
+    <history-entry file="ParameterTest - 2019.04.22 at 15h 59m 27s.xml">
+      <configuration name="ParameterTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException - 2019.04.21 at 23h 44m 46s.xml">
-      <configuration name="ExceptedException" configurationId="TestNG" />
+    <history-entry file="ParameterTest_parameterTest1 - 2019.04.22 at 15h 59m 32s.xml">
+      <configuration name="ParameterTest.parameterTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException_runTimeExceptionSucceed - 2019.04.21 at 23h 46m 31s.xml">
-      <configuration name="ExceptedException.runTimeExceptionSucceed" configurationId="TestNG" />
+    <history-entry file="ParameterTest_paramTest1 - 2019.04.22 at 16h 00m 46s.xml">
+      <configuration name="ParameterTest.paramTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException_runTimeExceptionSucceed - 2019.04.21 at 23h 49m 11s.xml">
-      <configuration name="ExceptedException.runTimeExceptionSucceed" configurationId="TestNG" />
+    <history-entry file="ParameterTest_paramTest1 - 2019.04.22 at 16h 01m 06s.xml">
+      <configuration name="ParameterTest.paramTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExceptedException_runTimeExceptionSucceed - 2019.04.21 at 23h 49m 47s.xml">
-      <configuration name="ExceptedException.runTimeExceptionSucceed" configurationId="TestNG" />
+    <history-entry file="ParameterTest_paramTest1 - 2019.04.22 at 16h 04m 44s.xml">
+      <configuration name="ParameterTest.paramTest1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DependTest_test2 - 2019.04.22 at 11h 00m 48s.xml">
-      <configuration name="DependTest.test2" configurationId="TestNG" />
+    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_src_main_resources_parameter_xml - 2019.04.22 at 16h 24m 13s.xml">
+      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DependTest_test2 - 2019.04.22 at 11h 02m 31s.xml">
-      <configuration name="DependTest.test2" configurationId="TestNG" />
+    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_src_main_resources_parameter_xml - 2019.04.22 at 16h 25m 14s.xml">
+      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36043000" />
+    <option name="totallyTimeSpent" value="43909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,8 +463,8 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.5824964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996395" visible="true" weight="0.44476327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45624104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -889,24 +887,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnClass1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/groupsOnClass.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="8" selection-start-line="12" selection-start-column="16" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/ExceptedException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="31" column="5" selection-start-line="28" selection-start-column="42" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="59">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
@@ -914,13 +898,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/groupsOnClass.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="8" selection-start-line="12" selection-start-column="16" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnClass1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/DependTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="17" selection-start-column="24" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parameter.xml.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parameter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/ParameterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
