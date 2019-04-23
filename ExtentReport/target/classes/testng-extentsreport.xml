@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="assert">
-    <test name="这是testng assert测试用例">
+<suite name="testng">
+    <test name="这是testng extentreports测试用例">
         <classes>
             <class name="com.extentreports.demo.TestMethodDemo">
                 <methods>
@@ -18,10 +18,8 @@
     </test>
 
     <listeners>
-        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter">
-
-
-        </listener>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
+        <listener class-name="com.extentreports.demo.ExtentTestNGIReporterListener"></listener>
 
     </listeners>
 
