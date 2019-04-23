@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="assert">
+    <test name="这是testng assert测试用例">
+        <classes>
+            <class name="com.extentreports.demo.TestMethodDemo">
+                <methods>
+                    <include name="test1"></include>
+                    <include name="test2"></include>
+                    <include name="test3"></include>
+                    <include name="logDemo"></include>
+
+                </methods>
+
+            </class>
+
+        </classes>
+
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter">
+
+
+        </listener>
+
+    </listeners>
+
+</suite>
