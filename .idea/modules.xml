@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExtentReport/ExtentReport.iml" filepath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNG-API/TestNG-API.iml" filepath="$PROJECT_DIR$/TestNG-API/TestNG-API.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/api_autotest.iml" filepath="$PROJECT_DIR$/.idea/api_autotest.iml" />
     </modules>
   </component>
