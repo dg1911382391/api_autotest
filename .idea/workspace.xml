@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/multiThread.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/TimeOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,28 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/DataProviderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/TimeOutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="13" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="166">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -48,24 +37,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="110">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/multiThread.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            <state relative-caret-position="43">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -119,9 +106,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/parameter.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/ParameterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/DataProviderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java" />
         <option value="$PROJECT_DIR$/src/main/resources/multiThread.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/TimeOutTest.java" />
       </list>
     </option>
   </component>
@@ -223,26 +211,6 @@
               <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="multipleThread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="parameter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -255,7 +223,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555980613345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555981598579" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -288,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml">
+  <component name="RunManager" selected="TestNG.TimeOutTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -319,25 +287,6 @@
       <option name="PACKAGE_NAME" value="com.sen.api.testng.parameter" />
       <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.parameter.DataProviderTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api_autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sen.api.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sen.api.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.parameter.DataProviderTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -382,6 +331,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api_autotest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sen.api.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sen.api.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.sen.api.testng.TimeOutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api_autotest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/multiThread.xml" />
@@ -413,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.DataProviderTest" />
-      <item itemvalue="TestNG.DataProviderTest.test1" />
       <item itemvalue="TestNG.DataProviderTest.test2" />
       <item itemvalue="TestNG.MultipleThreadOnAnnotion" />
       <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" />
+      <item itemvalue="TestNG.TimeOutTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TimeOutTest" />
         <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" />
         <item itemvalue="TestNG.MultipleThreadOnAnnotion" />
         <item itemvalue="TestNG.DataProviderTest" />
         <item itemvalue="TestNG.DataProviderTest.test2" />
-        <item itemvalue="TestNG.DataProviderTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +406,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
-      <workItem from="1555636969164" duration="47631000" />
+      <workItem from="1555636969164" duration="48628000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -452,12 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_src_main_resources_multiThread_xml - 2019.04.22 at 19h 15m 56s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_src_main_resources_multiThread_xml - 2019.04.22 at 19h 16m 03s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_src_main_resources_multiThread_xml - 2019.04.22 at 19h 21m 16s.xml">
       <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" configurationId="TestNG" />
     </history-entry>
@@ -482,9 +443,15 @@
     <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_src_main_resources_multiThread_xml - 2019.04.22 at 19h 31m 07s.xml">
       <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/src/main/resources/multiThread.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TimeOutTest - 2019.04.23 at 08h 58m 37s.xml">
+      <configuration name="TimeOutTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TimeOutTest - 2019.04.23 at 09h 00m 32s.xml">
+      <configuration name="TimeOutTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52261000" />
+    <option name="totallyTimeSpent" value="53258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,8 +464,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25450614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,11 +485,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32998565" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32998565" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003605" side_tool="true" weight="0.5824964" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.4996395" visible="true" weight="0.32998565" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4996395" weight="0.32998565" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1006,31 +974,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/multiThread.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="43">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnXml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="110">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/multiThread.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/multipleThread/MultipleThreadOnAnnotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        <state relative-caret-position="133">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/TimeOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>

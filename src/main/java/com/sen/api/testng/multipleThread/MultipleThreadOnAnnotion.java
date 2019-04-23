@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class MultipleThreadOnAnnotion {
 
 	@Test(invocationCount = 10, threadPoolSize = 3)
-	public void test(){
+	public void test() {
 		System.out.println(1);
 		System.out.println("Thread Id : %s%n" + Thread.currentThread().getId());
 	}
