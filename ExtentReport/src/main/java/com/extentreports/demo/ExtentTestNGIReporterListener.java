@@ -22,7 +22,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
 	private static final String OUTPUT_FOLDER = "test-output/";
 	private static final String FILE_NAME = "index.html";
 
-	private ExtentReports extent;
+	private ExtentReports extent = ExtentManager.getInstance(OUTPUT_FOLDER + FILE_NAME);
 
 	@Override
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {

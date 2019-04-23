@@ -21,7 +21,6 @@ public class ExtentManager {
 		return extent;
 	}
 
-
 	public static void createInstance(String filePath) {
 		extent = new ExtentReports();
 //        extent.setSystemInfo("os", "Linux");
@@ -38,13 +37,15 @@ public class ExtentManager {
 		//报表位置
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		//使报表上的图表可见
-		htmlReporter.config().setDocumentTitle("ExtentReports");
+		htmlReporter.config().setDocumentTitle("ExtentReports api自动化测试报告");
+		htmlReporter.config().setReportName("plateClient自动化测试报告");
 		htmlReporter.config().setChartVisibilityOnOpen(true);
 		htmlReporter.config().setTheme(Theme.STANDARD);
 		htmlReporter.config().setDocumentTitle(filePath);
 		htmlReporter.config().setEncoding("utf-8");
-		htmlReporter.config().setReportName("plateClient自动化测试报告");
-//      如果cdn.rawgit.com访问不了，可以设置为：ResourceCDN.EXTENTREPORTS或者ResourceCDN.GITHUB
+		/**
+		 * 如果cdn.rawgit.com访问不了，可以设置为：ResourceCDN.EXTENTREPORTS或者ResourceCDN.GITHUB
+		 */
 		htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
 //      htmlReporter.views().dashboard().setSection("Sample", SectionSize.S4, header, list); pro-only
 		return htmlReporter;
