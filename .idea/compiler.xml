@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ExtentReport" />
+        <module name="Mock" />
         <module name="TestNG-API" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="api_autotest" target="1.8" />
       <module name="ExtentReport" target="1.8" />
+      <module name="Mock" target="1.8" />
       <module name="Testng" target="1.5" />
       <module name="TestNG-API" target="1.5" />
     </bytecodeTargetLevel>

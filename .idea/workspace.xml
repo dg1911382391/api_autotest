@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/test-output/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" afterDir="false" />
     </list>
     <list id="1938aeea-7c0a-4568-8fad-d70f6dd99219" name="Report/ExtentReport.iml" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Testng/target/" />
     <ignored path="$PROJECT_DIR$/TestNG-API/target/" />
     <ignored path="$PROJECT_DIR$/ExtentReport/target/" />
+    <ignored path="$PROJECT_DIR$/Mock/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,62 +23,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExtentReport/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="40" column="21" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+        <entry file="file://$PROJECT_DIR$/Mock/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="154">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java">
+        <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentManager.java">
+        <entry file="file://$PROJECT_DIR$/Mock/startupWithHeader.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/TestMethodDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml">
+        <entry file="file://$PROJECT_DIR$/Mock/startupWithRedirect.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="99" />
+            <state relative-caret-position="369">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -102,7 +78,12 @@
       <find>extent</find>
       <find>File</find>
       <find>config</find>
+      <find>get</find>
+      <find>extentreports</find>
     </findStrings>
+    <replaceStrings>
+      <replace>post</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -152,6 +133,15 @@
         <option value="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentManager.java" />
         <option value="$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml" />
+        <option value="$PROJECT_DIR$/Mock/config.json" />
+        <option value="$PROJECT_DIR$/Mock/startup.json" />
+        <option value="$PROJECT_DIR$/Mock/README.md" />
+        <option value="$PROJECT_DIR$/Mock/startupGet.json" />
+        <option value="$PROJECT_DIR$/Mock/startupPost.json" />
+        <option value="$PROJECT_DIR$/Mock/startupGetWithCookies.json" />
+        <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
+        <option value="$PROJECT_DIR$/Mock/startupWithHeader.json" />
+        <option value="$PROJECT_DIR$/Mock/startupWithRedirect.json" />
       </list>
     </option>
   </component>
@@ -215,51 +205,7 @@
             <path>
               <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="ExtentReport" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="Mock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +219,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556014746069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556096058305" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -290,6 +236,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mock" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -442,7 +391,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
-      <workItem from="1555636969164" duration="69942000" />
+      <workItem from="1555636969164" duration="91160000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -487,7 +436,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74572000" />
+    <option name="totallyTimeSpent" value="95790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,9 +449,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -521,7 +469,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29411766" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29411766" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003605" side_tool="true" weight="0.5824964" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -540,7 +488,7 @@
       <window_info anchor="right" id="RestServices" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -613,80 +561,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="testng基本注解--测试用例" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/functions/Md5Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/xml/TestNGContentHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="228" selection-start-line="228" selection-end-line="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/listeners/RetryListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/configs/ApiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#557#587#1" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/PayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="213" column="81" selection-start-line="213" selection-start-column="81" selection-end-line="213" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/SuiteConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1032,10 +906,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/TestMethodDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="309">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
@@ -1048,28 +947,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java">
+    <entry file="file://$PROJECT_DIR$/Mock/startup.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="15" column="1" lean-forward="true" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtentReport/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="237">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml">
+    <entry file="file://$PROJECT_DIR$/Mock/startupGet.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="99" />
+        <state relative-caret-position="200">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupPost.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupWithHeader.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupWithRedirect.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
