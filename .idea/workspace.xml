@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClient/HttpClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api_autotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_autotest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_2_41_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentTestNGIReporterListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/ExtentTestNGIReporterListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/com/extentreports/demo/TestMethodDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/target/classes/testng-extentsreport.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="1938aeea-7c0a-4568-8fad-d70f6dd99219" name="Report/ExtentReport.iml" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,26 +24,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="11" />
+            <state relative-caret-position="110">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mock/startupWithHeader.json">
+        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="22">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java">
+        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="3256">
               <caret line="168" selection-start-line="168" selection-end-line="168" />
             </state>
           </provider>
@@ -88,12 +83,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="3300">
               <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -132,8 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/listeners/RetryListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/listeners/TestngRetry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/listeners/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/configs/ApiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/LoginTest.java" />
@@ -175,14 +168,16 @@
         <option value="$PROJECT_DIR$/Mock/startupGet.json" />
         <option value="$PROJECT_DIR$/Mock/startupPost.json" />
         <option value="$PROJECT_DIR$/Mock/startupGetWithCookies.json" />
-        <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
         <option value="$PROJECT_DIR$/Mock/startupWithHeader.json" />
         <option value="$PROJECT_DIR$/Mock/startupWithRedirect.json" />
         <option value="$PROJECT_DIR$/ExtentReport/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.16/poi-3.16.pom" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.pom" />
+        <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java" />
+        <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" />
+        <option value="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -240,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,6 +280,19 @@
             <path>
               <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="Mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -293,6 +300,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +308,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556162334676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556182614837" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -336,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyHttpClient">
+  <component name="RunManager" selected="TestNG.MyCookiesForGet.getCookies">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -367,6 +375,43 @@
       <option name="PACKAGE_NAME" value="test.com.sen.api" />
       <option name="MAIN_CLASS_NAME" value="test.com.sen.api.ApiTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyCookiesForGet" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForGet.getCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyCookiesForGet" />
+      <option name="METHOD_NAME" value="getCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -411,28 +456,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-assert.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ExtentReport" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExtentReport/src/main/resources/testng-assert.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ExtentReport" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -452,19 +475,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-assert.xml" />
-      <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" />
       <item itemvalue="TestNG.ApiTest" />
       <item itemvalue="TestNG.MyHttpClient.test1" />
       <item itemvalue="TestNG.MyHttpClient" />
+      <item itemvalue="TestNG.MyCookiesForGet" />
+      <item itemvalue="TestNG.MyCookiesForGet.getCookies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCookiesForGet.getCookies" />
+        <item itemvalue="TestNG.MyCookiesForGet" />
         <item itemvalue="TestNG.MyHttpClient" />
         <item itemvalue="TestNG.MyHttpClient.test1" />
         <item itemvalue="TestNG.ApiTest" />
-        <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" />
-        <item itemvalue="TestNG./Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-assert.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +503,8 @@
       <option name="presentableId" value="Default" />
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
-      <workItem from="1555636969164" duration="98482000" />
+      <workItem from="1555636969164" duration="98932000" />
+      <workItem from="1556163107398" duration="6095000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -493,18 +517,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 16h 09m 33s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 16h 52m 23s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 16h 55m 23s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 17h 00m 30s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 17h 27m 36s.xml">
       <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
     </history-entry>
@@ -523,9 +535,21 @@
     <history-entry file="MyHttpClient - 2019.04.25 at 11h 16m 28s.xml">
       <configuration name="MyHttpClient" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MyCookiesForGet - 2019.04.25 at 16h 50m 14s.xml">
+      <configuration name="MyCookiesForGet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet_getCookies - 2019.04.25 at 16h 51m 15s.xml">
+      <configuration name="MyCookiesForGet.getCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet_getCookies - 2019.04.25 at 16h 51m 59s.xml">
+      <configuration name="MyCookiesForGet.getCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet_getCookies - 2019.04.25 at 16h 55m 52s.xml">
+      <configuration name="MyCookiesForGet.getCookies" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103112000" />
+    <option name="totallyTimeSpent" value="109657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,17 +563,13 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.296323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.4117647" />
@@ -563,6 +583,10 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003605" side_tool="true" weight="0.5824964" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4996395" weight="0.32998565" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="13" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32998565" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -576,44 +600,6 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="RestServices" order="11" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29127613" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32998565" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="2" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4996395" weight="0.4117647" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.45624104" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32998565" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.29411766" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5003605" side_tool="true" weight="0.5824964" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.4996395" weight="0.32998565" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3294881" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="BPMNPalette" order="6" />
-      <window_info anchor="right" id="Key Promoter X" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="RestServices" order="11" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -643,6 +629,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
@@ -650,21 +650,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="testng基本注解--测试用例" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnClass1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parameter.xml.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -751,10 +736,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Testng/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Testng/pom.xml" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -765,10 +747,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG-API/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG-API/pom.xml" />
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
@@ -783,13 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ReportListenerOld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ReportListenerOld.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/TestNG.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -863,14 +836,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mock/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/pom.xml" />
     <entry file="file://$PROJECT_DIR$/ExtentReport/src/main/resources/testng-extentsreport.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -922,23 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mock/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
@@ -961,12 +910,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient/pom.xml">
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.16/poi-3.16.pom">
       <provider selected="true" editor-type-id="text-editor">
@@ -989,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mock/startupWithHeader.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1004,39 +946,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtentReport/pom.xml">
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="77" column="28" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/ApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1047,10 +967,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupWithHeader.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="110">
+            <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/ApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="1">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
