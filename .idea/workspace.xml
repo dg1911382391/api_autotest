@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/ExtentReport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient/HttpClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/HttpClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClient/target/classes/com/httpclient/demo/MyCookiesForGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/target/classes/com/httpclient/demo/MyCookiesForGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mock/startupWithCookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mock/startupWithCookies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <list id="d37b506d-458e-44a4-91b9-bbe8143ecf8f" name="Mock平台提供接口服务 HttpClient管理请求测试接口 获取Cookies信息" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="d37b506d-458e-44a4-91b9-bbe8143ecf8f" name="Mock平台提供接口服务 HttpClient管理请求测试接口 获取Cookies信息" comment="" />
     <list id="1938aeea-7c0a-4568-8fad-d70f6dd99219" name="Report/ExtentReport.iml" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Testng/target/" />
@@ -23,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="352">
+              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -35,17 +46,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="144" column="55" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +65,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClient/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.13/fastjson-1.2.13.jar!/com/alibaba/fastjson/JSONObject.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="21" />
+              <folding>
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/entity/StringEntity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/ApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+            <state relative-caret-position="277">
+              <caret line="112" column="6" selection-start-line="111" selection-start-column="11" selection-end-line="112" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -65,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3256">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
+            <state relative-caret-position="224">
+              <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -74,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3300">
-              <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
+            <state relative-caret-position="395">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -107,6 +150,7 @@
       <find>commons-codec</find>
       <find>/</find>
       <find>result</find>
+      <find>json</find>
     </findStrings>
     <replaceStrings>
       <replace>post</replace>
@@ -120,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/listeners/ExtentTestNGIReporterListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/configs/ApiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/suite/PayTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
@@ -165,12 +207,14 @@
         <option value="$PROJECT_DIR$/Mock/startupWithRedirect.json" />
         <option value="$PROJECT_DIR$/ExtentReport/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.16/poi-3.16.pom" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.pom" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java" />
-        <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
-        <option value="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" />
+        <option value="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/HttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForPost.java" />
+        <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
       </list>
     </option>
   </component>
@@ -201,17 +245,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="接口测试自动化0.02版" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="接口测试自动化0.02版" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -270,24 +304,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="Mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -301,7 +317,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556189097902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556193337769" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -337,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForGet.testGetWithCookies">
+  <component name="RunManager" selected="TestNG.MyCookiesForPost.testPostWithCookies">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -432,7 +448,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHttpClient" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyCookiesForPost.testPostWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClient" />
       <extension name="coverage">
         <pattern>
@@ -441,8 +457,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.httpclient.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyHttpClient" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyCookiesForPost" />
+      <option name="METHOD_NAME" value="testPostWithCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -469,19 +486,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.MyHttpClient" />
       <item itemvalue="TestNG.MyCookiesForGet" />
       <item itemvalue="TestNG.MyCookiesForGet.getCookies" />
       <item itemvalue="TestNG.MyCookiesForGet.getWithCookies" />
       <item itemvalue="TestNG.MyCookiesForGet.testGetWithCookies" />
+      <item itemvalue="TestNG.MyCookiesForPost.testPostWithCookies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCookiesForPost.testPostWithCookies" />
         <item itemvalue="TestNG.MyCookiesForGet.testGetWithCookies" />
         <item itemvalue="TestNG.MyCookiesForGet.getWithCookies" />
         <item itemvalue="TestNG.MyCookiesForGet.getCookies" />
         <item itemvalue="TestNG.MyCookiesForGet" />
-        <item itemvalue="TestNG.MyHttpClient" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +516,7 @@
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
       <workItem from="1555636969164" duration="98932000" />
-      <workItem from="1556163107398" duration="10879000" />
+      <workItem from="1556163107398" duration="15093000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -512,21 +529,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 17h 41m 36s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ApiTest - 2019.04.25 at 09h 49m 13s.xml">
-      <configuration name="ApiTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyHttpClient_test1 - 2019.04.25 at 11h 05m 52s.xml">
-      <configuration name="MyHttpClient.test1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyHttpClient - 2019.04.25 at 11h 16m 28s.xml">
-      <configuration name="MyHttpClient" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MyCookiesForGet - 2019.04.25 at 16h 50m 14s.xml">
-      <configuration name="MyCookiesForGet" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MyCookiesForGet_getCookies - 2019.04.25 at 16h 51m 15s.xml">
       <configuration name="MyCookiesForGet.getCookies" configurationId="TestNG" />
     </history-entry>
@@ -542,9 +544,24 @@
     <history-entry file="MyCookiesForGet_getWithCookies - 2019.04.25 at 18h 42m 44s.xml">
       <configuration name="MyCookiesForGet.getWithCookies" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MyCookiesForGet_testGetWithCookies - 2019.04.25 at 18h 45m 05s.xml">
+      <configuration name="MyCookiesForGet.testGetWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForPost_testPostWithCookies - 2019.04.25 at 19h 50m 22s.xml">
+      <configuration name="MyCookiesForPost.testPostWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForPost_testPostWithCookies - 2019.04.25 at 19h 50m 43s.xml">
+      <configuration name="MyCookiesForPost.testPostWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForPost_testPostWithCookies - 2019.04.25 at 19h 52m 44s.xml">
+      <configuration name="MyCookiesForPost.testPostWithCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForPost_testPostWithCookies - 2019.04.25 at 19h 53m 43s.xml">
+      <configuration name="MyCookiesForPost.testPostWithCookies" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114441000" />
+    <option name="totallyTimeSpent" value="118655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,7 +592,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" visible="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" weight="0.29411766" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108147" side_tool="true" weight="0.29411766" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -598,30 +615,31 @@
       <window_info anchor="right" id="RestServices" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.296323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.296323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.4117647" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45624104" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" visible="true" weight="0.29411766" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108147" side_tool="true" weight="0.29411766" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4996395" weight="0.32998565" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="13" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32998565" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32998565" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4996395" weight="0.4117647" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.45624104" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32998565" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" weight="0.32998565" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49891853" weight="0.29411766" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50108147" side_tool="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4996395" weight="0.32998565" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="14" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32998565" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -685,59 +703,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="testng基本注解--测试用例" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/DependTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" selection-start-line="17" selection-start-column="24" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/ParameterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/parameter/DataProviderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/multiThread.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sen/api/testng/TimeOutTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
@@ -944,14 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.16/poi-3.16.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1009,21 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3256">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mock/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1031,13 +973,6 @@
             <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-end-line="6" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/ApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1051,27 +986,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="224">
+          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/sen/api/ApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="277">
+          <caret line="112" column="6" selection-start-line="111" selection-start-column="11" selection-end-line="112" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        <state relative-caret-position="484">
+          <caret line="107" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/util/EntityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar!/org/apache/http/entity/StringEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.13/fastjson-1.2.13.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="113" column="63" lean-forward="true" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="144" column="55" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
