@@ -1,5 +1,22 @@
 [
   {
+    "description":"这是一个会返回Cookies信息的get请求。",
+
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+
+    "response":{
+      "cookies":{
+        "login":"true",
+        "status":"1010"
+      },
+      "text":"恭喜你获得cookies信息成功！"
+    }
+
+  },
+  {
     "description":"模拟一个带Cookies的get请求。",
 
     "request": {
