@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mock/startupWithCookies.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mock/startupWithCookies.json" afterDir="false" />
+    </list>
+    <list id="d37b506d-458e-44a4-91b9-bbe8143ecf8f" name="Mock平台提供接口服务 HttpClient管理请求测试接口 获取Cookies信息" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="1938aeea-7c0a-4568-8fad-d70f6dd99219" name="Report/ExtentReport.iml" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,22 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="395">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -46,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -55,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+            <state relative-caret-position="120">
+              <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,9 +105,12 @@
       <find>httpclient</find>
       <find>poi-ooxml</find>
       <find>commons-codec</find>
+      <find>/</find>
+      <find>result</find>
     </findStrings>
     <replaceStrings>
       <replace>post</replace>
+      <replace>.</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,8 +168,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.pom" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java" />
-        <option value="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
+        <option value="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" />
       </list>
     </option>
@@ -300,8 +292,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +301,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556184444883" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556189097902" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -345,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForGet.getCookies">
+  <component name="RunManager" selected="TestNG.MyCookiesForGet.testGetWithCookies">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -361,24 +353,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api_autotest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.sen.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.sen.api" />
-      <option name="MAIN_CLASS_NAME" value="test.com.sen.api.ApiTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -420,6 +394,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCookiesForGet.getWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyCookiesForGet" />
+      <option name="METHOD_NAME" value="getWithCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForGet.testGetWithCookies" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HttpClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.httpclient.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.httpclient.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyCookiesForGet" />
+      <option name="METHOD_NAME" value="testGetWithCookies" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyHttpClient" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HttpClient" />
       <extension name="coverage">
@@ -431,25 +443,6 @@
       <option name="PACKAGE_NAME" value="com.httpclient.demo" />
       <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyHttpClient" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyHttpClient.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HttpClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.httpclient.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.httpclient.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.httpclient.demo.MyHttpClient" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -476,19 +469,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ApiTest" />
-      <item itemvalue="TestNG.MyHttpClient.test1" />
       <item itemvalue="TestNG.MyHttpClient" />
       <item itemvalue="TestNG.MyCookiesForGet" />
       <item itemvalue="TestNG.MyCookiesForGet.getCookies" />
+      <item itemvalue="TestNG.MyCookiesForGet.getWithCookies" />
+      <item itemvalue="TestNG.MyCookiesForGet.testGetWithCookies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyCookiesForGet.testGetWithCookies" />
+        <item itemvalue="TestNG.MyCookiesForGet.getWithCookies" />
         <item itemvalue="TestNG.MyCookiesForGet.getCookies" />
         <item itemvalue="TestNG.MyCookiesForGet" />
         <item itemvalue="TestNG.MyHttpClient" />
-        <item itemvalue="TestNG.MyHttpClient.test1" />
-        <item itemvalue="TestNG.ApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -499,13 +492,14 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="" />
       <changelist id="1938aeea-7c0a-4568-8fad-d70f6dd99219" name="Report/ExtentReport.iml" comment="" />
+      <changelist id="d37b506d-458e-44a4-91b9-bbe8143ecf8f" name="Mock平台提供接口服务 HttpClient管理请求测试接口 获取Cookies信息" comment="" />
       <created>1555576040470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555576040470</updated>
       <workItem from="1555576041843" duration="4630000" />
       <workItem from="1555636969164" duration="98932000" />
-      <workItem from="1556163107398" duration="7584000" />
+      <workItem from="1556163107398" duration="10879000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -518,12 +512,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 17h 27m 36s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 17h 29m 56s.xml">
-      <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_dugang_projectLocation_ideaWorkspaces_api_autotest_ExtentReport_src_main_resources_testng-extentsreport_xml - 2019.04.23 at 17h 41m 36s.xml">
       <configuration name="/Users/dugang/projectLocation/ideaWorkspaces/api_autotest/ExtentReport/src/main/resources/testng-extentsreport.xml" configurationId="TestNG" />
     </history-entry>
@@ -548,9 +536,15 @@
     <history-entry file="MyCookiesForGet_getCookies - 2019.04.25 at 16h 55m 52s.xml">
       <configuration name="MyCookiesForGet.getCookies" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MyCookiesForGet_getCookies - 2019.04.25 at 17h 27m 29s.xml">
+      <configuration name="MyCookiesForGet.getCookies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MyCookiesForGet_getWithCookies - 2019.04.25 at 18h 42m 44s.xml">
+      <configuration name="MyCookiesForGet.getWithCookies" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111146000" />
+    <option name="totallyTimeSpent" value="114441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,6 +566,7 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.32998565" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.4117647" />
@@ -580,7 +575,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" visible="true" weight="0.29411766" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" visible="true" weight="0.29411766" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108147" side_tool="true" weight="0.29411766" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -602,6 +597,44 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="RestServices" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.296323" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996395" weight="0.4117647" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45624104" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" visible="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108147" side_tool="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4996395" weight="0.32998565" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="13" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32998565" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3294881" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="BPMNPalette" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1020,22 +1053,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="395">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+        <state relative-caret-position="120">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
