@@ -1,12 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.0.RELEASE</version>
+	</parent>
+
 	<groupId>com.sen.test</groupId>
 	<artifactId>api</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>ExtentReport</module>
 		<module>HttpClient</module>
+		<module>SpringBoot</module>
 	</modules>
     <packaging>pom</packaging>
 	<name>接口测试自动化0.02版</name>
@@ -91,6 +98,13 @@
 	</build>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.19.1</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.sen</groupId>
 			<artifactId>reportng</artifactId>
@@ -105,6 +119,7 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/libs/velocity-1.7-dep.jar</systemPath>
 		</dependency>
+
 		<dependency>
 			<groupId>com.google.inject</groupId>
 			<artifactId>guice</artifactId>
@@ -120,13 +135,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.10</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.2</version>
 		</dependency>
 
 		<dependency>

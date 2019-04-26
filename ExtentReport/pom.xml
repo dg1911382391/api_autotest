@@ -39,7 +39,32 @@
             <artifactId>freemarker</artifactId>
             <version>2.3.23</version>
         </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.0.6</version>
+            <scope>compile</scope>
+        </dependency>
 
+        <dependency>
+            <groupId>com.sen</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.9</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../libs/reportng-1.1.9.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sen</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7-dep</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../libs/velocity-1.7-dep.jar</systemPath>
+        </dependency>
 
     </dependencies>
 

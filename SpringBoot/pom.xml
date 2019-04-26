@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 有俩parent时的解决思路：
+        1、干掉一个，如，去掉...api；
+        2、弄个爷爷辈的出来，如，spring-boot-starter-parent
+    -->
+    <parent>
+        <groupId>com.sen.test</groupId>
+        <artifactId>api</artifactId>
+        <version>0.0.2-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>SpringBoot</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sen</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.9</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../libs/reportng-1.1.9.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sen</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7-dep</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../libs/velocity-1.7-dep.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+
+</project>
