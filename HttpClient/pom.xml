@@ -40,6 +40,15 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/../libs/velocity-1.7-dep.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.6</version>
+        </dependency>
 
     </dependencies>
 

@@ -17,11 +17,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.sen</groupId>
             <artifactId>reportng</artifactId>
             <version>1.1.9</version>
@@ -34,6 +29,11 @@
             <version>1.7-dep</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/../libs/velocity-1.7-dep.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
     </dependencies>

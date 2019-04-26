@@ -16,6 +16,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.entity.mime.MultipartEntity;
 import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.entity.mime.content.StringBody;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.params.CoreConnectionPNames;
 import org.apache.http.util.EntityUtils;
@@ -95,7 +96,8 @@ public class ApiTest extends TestBase {
 			headers.add(header);
 		});
 		publicHeaders = headers.toArray(new Header[headers.size()]);
-		client = new SSLClient();
+//		client = new SSLClient();
+		client = new DefaultHttpClient();
 		client.getParams().setParameter(
 				CoreConnectionPNames.CONNECTION_TIMEOUT, 60000); // 请求超时
 		client.getParams().setParameter(CoreConnectionPNames.SO_TIMEOUT, 60000); // 读取超时
