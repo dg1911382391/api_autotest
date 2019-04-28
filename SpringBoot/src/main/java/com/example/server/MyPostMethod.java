@@ -1,14 +1,14 @@
 package com.example.server;
 
+import com.example.bean.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Objects;
 
 /**
  * Created by dg on 2019-04-28.
@@ -44,6 +44,34 @@ public class MyPostMethod {
 		return "用户名或密码错误！";
 	}
 
+	/**
+	 * 要求客户端携带cookies、参数访问此接口
+	 * 这是一个需要携带cookies信息以及入参才能访问的post请求
+	 */
+	@RequestMapping(value = "/getUserList", method = RequestMethod.POST)
+	@ApiOperation(value = "获取用户列表" , httpMethod = "POST")
+	public String getUserList(HttpServletRequest request,
+							@RequestBody User user) {
+		User u;
+				Cookie[] cookies = request.getCookies();
+		if (Objects.isNull(cookies)) {
+			return "你必须携带cookies信息来";
+		}
+		for (Cookie cookie : cookies) {
+			if (cookie.getName().equals("login")	// equals与== 值比对与地址比对
+					&& cookie.getValue().equals("true")
+					&& user.getUserName().equals("zhangsan")
+					&& user.getPassword().equals("123456")
+			) {
+				u = new User();
+				u.setName("lisi");
+				u.setAge("24");
+				u.setSex("man");
+				return u.toString();
+			}
+		}
+		return "参数不合法！";
 
+	}
 
 }
