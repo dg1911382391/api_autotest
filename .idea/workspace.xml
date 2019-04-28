@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258c2d65-4224-44d1-b96a-78fb3ffe1813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/example/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot/src/main/java/com/example/server/MyGetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/example/server/MyGetMethod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="41" />
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -32,11 +51,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/com/example/server/MyGetMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+            <state relative-caret-position="584">
+              <caret line="64" column="53" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1556418246275" expanded="true" signature="1896:2215" ph="..." />
+                <marker date="1556431407595" expanded="true" signature="2214:2599" ph="..." />
               </folding>
             </state>
           </provider>
@@ -45,20 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="249">
+              <caret line="74" column="26" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +85,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="423">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="41" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/com/example/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -153,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/groupsOnClass2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/groupsOnClass3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/IgnoreTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sen/api/testng/groups/GroupsOnClass1.java" />
@@ -188,7 +206,6 @@
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.16/poi-3.16.pom" />
         <option value="$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17.pom" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyHttpClient.java" />
-        <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForPost.java" />
         <option value="$PROJECT_DIR$/Mock/startupWithCookies.json" />
@@ -199,11 +216,13 @@
         <option value="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentManager.java" />
         <option value="$PROJECT_DIR$/ExtentReport/src/main/java/com/extentreports/demo/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/ExtentReport/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringBoot/src/main/java/com/example/demo/SampleController.java" />
-        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java" />
         <option value="$PROJECT_DIR$/SpringBoot/src/main/java/com/example/server/MyGetMethod.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/SpringBoot/src/main/java/com/example/config/SwaggerConfig.java" />
       </list>
     </option>
   </component>
@@ -347,6 +366,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -383,7 +412,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556418246331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556432340786" />
     <property name="last_opened_file_path" value="F:/apache-tomcat-7.0.62" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -565,7 +594,7 @@
       <workItem from="1555636969164" duration="98932000" />
       <workItem from="1556163107398" duration="21427000" />
       <workItem from="1556257191863" duration="10601000" />
-      <workItem from="1556268478624" duration="13721000" />
+      <workItem from="1556268478624" duration="19852000" />
     </task>
     <task id="LOCAL-00001" summary="testng基本注解--测试用例">
       <created>1555641291864</created>
@@ -610,7 +639,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149311000" />
+    <option name="totallyTimeSpent" value="155442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,7 +654,7 @@
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29538906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29538906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -635,13 +664,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985591" weight="0.39167863" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985591" visible="true" weight="0.39167863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45624104" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998565" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" visible="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49891853" weight="0.29411766" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50144094" side_tool="true" weight="0.4117647" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -760,7 +789,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="testng基本注解--测试用例" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mock/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Mock/startup.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1108,20 +1136,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mock/startupWithCookies.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="41" />
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/com/example/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBoot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1132,8 +1170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="141">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1142,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpClient/src/main/java/com/httpclient/demo/MyCookiesForGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        <state relative-caret-position="249">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1152,11 +1190,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringBoot/src/main/java/com/example/server/MyGetMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+        <state relative-caret-position="584">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1556418246275" expanded="true" signature="1896:2215" ph="..." />
+            <marker date="1556431407595" expanded="true" signature="2214:2599" ph="..." />
           </folding>
         </state>
       </provider>

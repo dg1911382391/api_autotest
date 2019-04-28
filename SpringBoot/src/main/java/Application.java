@@ -13,7 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
  * 这个注解可以禁用springboot自带的配置。
  */
 @SpringBootApplication(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
-@ComponentScan("com.example.server")
+@ComponentScan("com.example")
 public class Application {
 
 	public static void main(String[] args) throws Exception {
