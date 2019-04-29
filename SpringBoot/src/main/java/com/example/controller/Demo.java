@@ -37,6 +37,9 @@ public class Demo {
 		return template.insert("addUser", user);
 	}
 
-
+	@RequestMapping(value = "/updateUser", method = RequestMethod.POST)
+	public int updateUser(@RequestBody User user) {
+		return template.update("updateUser", user);
+	}
 
 }

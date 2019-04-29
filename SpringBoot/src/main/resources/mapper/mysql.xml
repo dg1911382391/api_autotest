@@ -12,4 +12,9 @@
         insert into user(id, name, sex, age)
         values(#{id}, #{name}, #{sex}, #{age})
     </insert>
+    
+    <update id="updateUser" parameterType="com.example.bean.User">
+        update user set name=#{name}, age=#{age}
+        where id=#{id}
+    </update>
 </mapper>
