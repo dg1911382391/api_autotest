@@ -6,10 +6,7 @@ import io.swagger.annotations.ApiOperation;
 import lombok.extern.log4j.Log4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by dg on 2019-04-28.
@@ -40,6 +37,11 @@ public class Demo {
 	@RequestMapping(value = "/updateUser", method = RequestMethod.POST)
 	public int updateUser(@RequestBody User user) {
 		return template.update("updateUser", user);
+	}
+
+	@RequestMapping(value = "/deleteUser", method = RequestMethod.POST)
+	public int delUser(@RequestParam int id) {
+		return template.delete("deleteUser", id);
 	}
 
 }
