@@ -1,0 +1,147 @@
+系统需求文档：
+	环境：
+	    Git
+		IDEA
+		maven
+		mysql   MySQL在Windows下数据库名、表名、列名、别名都不区分大小写。
+		谷歌/火狐/IE
+
+	技术要求:
+	    Spring Boot
+		java
+		Servlet
+		xml
+		ajax
+		jquery
+		html
+		js
+		css
+		jsp
+
+	硬件要求：
+		笔记本一台
+
+	功能需求：
+		普通用户：
+			登录功能
+			退出功能
+			只能上传本用户（医生）所属患者的医疗图片
+			只能看到本用户（医生）所属患者的文件夹
+			只能标注本用户（医生）所属患者的病变图片
+			删除个人标注过的信息
+			修改个人标注过的信息
+			查看个人标注过的信息
+
+		超级用户：
+			登录功能
+			退出功能
+			能上传所有用户（医生）所属患者的医疗图片
+			能看到所有用户（医生）所属患者的文件夹
+			能标注所有用户（医生）所属患者的病变图片
+            删除所有用户标注过的信息
+            修改所有用户标注过的信息
+			查看所有用户标注过的信息
+			添加普通用户（预留功能）
+			删除普通用户（预留功能）
+
+	数据库设计：
+        用户医生标注人信息表user_info与图片信息表picture_info是多对多的关系（引入一个中间表，即标注信息表label_detail）。
+        标注内容结果信息表content_info与标注信息表label_detail是一对多的关系（设置一个外键），此项目中就不设外键了（不好操作）......
+        因用户（医生）登录系统成功后，先看到文件夹的信息，则有一个文件夹信息表folder_info
+
+	用户医生标注人信息表user_info:
+			uid（主键）
+			uname
+			upwd
+			uage
+			upower
+			color
+			create_time
+			update_time
+			is_delete
+			remark
+	图片信息表picture_info:
+			pic_id（主键）
+			pic_uuid
+			pic_path
+			fol_uuid（引入文件夹信息表folder_info的文件夹uuid）
+			is_label
+			pic_desc
+			uid（设置一个字段名，引用另一个用户医生标注人信息表user_info的主键，用于普通用户只能查看个人文件夹的权限）
+    标注内容结果信息表content_info：
+            con_id（主键）
+            content（诊断内容或病变性质的值将来会做增加或删除）
+	中间表，即标注信息表label_detail：
+			lab_id（主键）
+            is_valid
+            type
+            location
+            px_info
+            create_time
+            update_time
+            is_delete
+            lab_remark
+			uid（引入标注人信息表user_info的主键）
+			pic_id（引入图片信息表picture_info的主键）
+			con_id（引入标注内容结果信息表content_info的主键）
+    文件夹信息表folder_info：
+            fol_id（主键）
+            fol_uuid
+            fol_name
+            fol_desc
+
+create table user_info (
+	uid INT(20) not null auto_increment,
+	uname VARCHAR(255) not null,
+	upwd VARCHAR(255) not null,
+	uage VARCHAR(10) not null,
+	upower VARCHAR(255) not null,
+	color VARCHAR(255) not null,
+	create_time timestamp not null,
+	update_time timestamp not null,
+	is_delete tinyint(4) not null,
+	remark VARCHAR(1000) not null,
+	PRIMARY KEY(uid)
+);
+
+create table picture_info (
+	pic_id INT(20) not null auto_increment,
+	pic_uuid VARCHAR(255) not null,
+	pic_path VARCHAR(1000) not null,
+	fol_uuid VARCHAR(255) not null,
+	is_label tinyint(4) not null,
+	pic_desc VARCHAR(1000) not null,
+	uid VARCHAR(50) not null,
+	PRIMARY KEY(pic_id)
+);
+
+create table content_info (
+	con_id INT(20) not null auto_increment,
+	content VARCHAR(255) not null,
+	PRIMARY KEY(con_id)
+);
+
+create table label_detail (
+	lab_id INT(20) not null auto_increment,
+	is_valid tinyint(4) not null,
+	type VARCHAR(100) not null,
+	location VARCHAR(255) not null,
+	px_info text not null,
+	create_time timestamp not null,
+    update_time timestamp not null,
+    is_delete tinyint(4) not null,
+    uid VARCHAR(50) not null,
+    pic_id VARCHAR(50) not null,
+    con_id VARCHAR(50) not null,
+    lab_remark VARCHAR(2000) not null,
+	PRIMARY KEY(lab_id)
+);
+
+create table folder_info (
+	fol_id INT(20) not null auto_increment,
+	fol_uuid VARCHAR(255) not null,
+	fol_name VARCHAR(255) not null,
+	fol_desc VARCHAR(1000) not null,
+	PRIMARY KEY(fol_id)
+);
+
