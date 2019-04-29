@@ -7,4 +7,9 @@
     <select id="getUserCount" resultType="Integer">
         select count(*) from user;
     </select>
+    
+    <insert id="addUser" parameterType="com.example.bean.User">
+        insert into user(id, name, sex, age)
+        values(#{id}, #{name}, #{sex}, #{age})
+    </insert>
 </mapper>

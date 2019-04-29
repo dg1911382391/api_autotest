@@ -1,10 +1,12 @@
 package com.example.controller;
 
+import com.example.bean.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.log4j.Log4j;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,6 +30,11 @@ public class Demo {
 	@ApiOperation(value = "可以获取到用户数", httpMethod = "GET")
 	public int queryUserCount() {
 		return template.selectOne("getUserCount");
+	}
+
+	@RequestMapping(value = "/insertUser", method = RequestMethod.POST)
+	public int addUser(@RequestBody User user) {
+		return template.insert("addUser", user);
 	}
 
 

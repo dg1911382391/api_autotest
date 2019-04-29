@@ -65,7 +65,7 @@ public class MyPostMethod {
 			) {
 				u = new User();
 				u.setName("lisi");
-				u.setAge("24");
+				u.setAge(24);
 				u.setSex("man");
 				return u.toString();
 			}
