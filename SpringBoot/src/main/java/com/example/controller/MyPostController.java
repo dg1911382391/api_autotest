@@ -1,4 +1,4 @@
-package com.example.server;
+package com.example.controller;
 
 import com.example.bean.User;
 import io.swagger.annotations.Api;
@@ -16,7 +16,7 @@ import java.util.Objects;
 @RestController
 @Api(value = "/", description = "这是我全部的post请求")
 @RequestMapping("/post")
-public class MyPostMethod {
+public class MyPostController {
 
 	/**
 	 * 这个变量是用来装我们cookie信息的
@@ -53,7 +53,7 @@ public class MyPostMethod {
 	public String getUserList(HttpServletRequest request,
 							@RequestBody User user) {
 		User u;
-				Cookie[] cookies = request.getCookies();
+		Cookie[] cookies = request.getCookies();
 		if (Objects.isNull(cookies)) {
 			return "你必须携带cookies信息来";
 		}

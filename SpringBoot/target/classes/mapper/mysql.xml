@@ -4,12 +4,76 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example">
-    <select id="getUserCount" resultType="Integer">
-        select count(*) from user;
+    <!-- 登录接口sql -->
+    <select id="login" parameterType="com.example.bean.User" resultType="Integer">
+        select count(*)
+        from user
+        where name=#{name}
+        and password=#{password}
     </select>
-    
+
+    <select id="getUserCount" resultType="Integer">
+        select count(*)
+        from user
+    </select>
+
+    <!-- 获取用户(列表)信息接口 -->
+    <select id="getUserList" parameterType="com.example.bean.User" resultType="com.example.bean.User">
+        select *
+        from user
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="null != id and '' != id">
+                and id=#{id}
+            </if>
+            <if test="null != name and '' != name">
+                and name=#{name}
+            </if>
+            <if test="null != password and '' != password">
+                and password=#{password}
+            </if>
+            <if test="null != sex and '' != sex">
+                and sex=#{sex}
+            </if>
+            <if test="null != age and '' != age">
+                and age=#{age}
+            </if>
+        </trim>
+    </select>
+
+    <!-- 添加用户接口 -->
     <insert id="addUser" parameterType="com.example.bean.User">
-        insert into user(id, name, sex, age)
+        insert into
+        user(id, name, sex, age)
         values(#{id}, #{name}, #{sex}, #{age})
     </insert>
+
+    <!-- 更新/删除用户接口 -->
+    <update id="updateUser" parameterType="com.example.bean.User">
+        update user
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="null != name and '' != name">
+                name=#{name},
+            </if>
+            <if test="null != password and '' != password">
+                and password=#{password},
+            </if>
+            <if test="null != sex and '' != sex">
+                and sex=#{sex},
+            </if>
+            <if test="null != age and '' != age">
+                and age=#{age},
+            </if>
+        </trim>
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="null != id and '' != id">
+                and id=#{id}
+            </if>
+        </trim>
+    </update>
+
+    <delete id="deleteUser" parameterType="Integer">
+        delete
+        from user
+        where id=#{id}
+    </delete>
 </mapper>

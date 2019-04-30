@@ -1,4 +1,4 @@
-package com.example.server;
+package com.example.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -16,7 +16,7 @@ import java.util.Objects;
  */
 @RestController
 @Api(value = "/", description = "这是我全部的get方法")
-public class MyGetMethod {
+public class MyGetController {
 
 	/**
 	 * 给客户端返回cookies
